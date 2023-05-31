@@ -13,3 +13,8 @@ initButtonFun(buttonFun);
 channel.addEventListener('message', (e) => {
   creatMessageElement(e.data);
 });
+
+window.onbeforeunload = () => {
+  // 断开与频道的连接
+  channel.close();
+};
