@@ -1,3 +1,3 @@
-# web-platform-cq7zte
+# cross-tab-communication
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/web-platform-cq7zte)
+![demo](./images/demo.gif)
