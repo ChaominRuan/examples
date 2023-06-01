@@ -34,7 +34,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Test Converts markdown text to HTML
-        uses: ./
+        uses: jaywcjlove/markdown-to-html-cli@main
         with:
           source: README.md
           output: coverage/action.html
