@@ -33,6 +33,13 @@ jobs:
         uses: actions/checkout@v3
       - name: Setup Pages
         uses: actions/configure-pages@v3
+      - name: Test Converts markdown text to HTML
+        uses: ./
+        with:
+          source: README.md
+          output: coverage/action.html
+          github-corners: https://github.com/ChaominRuan/examples
+          favicon: data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
