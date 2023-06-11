@@ -4,10 +4,10 @@ import Counter from "./Counter";
 
 document.querySelector('#count').innerHTML = Counter.getCount().toString();
 
-import Preson from "./Person";
+import Person from "./Person";
 
-const zs = new Preson('zs',18);  // Person {name: 'zs', age: 18}
-const ls = new Preson('ls',20); // Person {name: 'zs', age: 18}
+const zs = new Person('zs',18);  // Person {name: 'zs', age: 18}
+const ls = new Person('ls',20); // Person {name: 'zs', age: 18}
 
 console.log(zs === ls); // true
 
