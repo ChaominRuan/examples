@@ -1,0 +1,22 @@
+{
+  "name": "examples",
+  "version": "1.0.0",
+  "description": "some examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChaominRuan/examples.git"
+  },
+  "author": "ChaominRuan",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ChaominRuan/examples/issues"
+  },
+  "homepage": "https://github.com/ChaominRuan/examples#readme",
+  "dependencies": {
+    "parcel": "^2.9.2"
+  }
+}
