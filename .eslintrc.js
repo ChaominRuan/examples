@@ -3,7 +3,8 @@ module.exports = {
     browser: true,
     es2021: true
   },
-  plugins: ['@html-eslint'],
+  extends: ['airbnb-base', 'plugin:prettier/recommended'],
+  plugins: ['@html-eslint', 'html'],
   overrides: [
     {
       files: ['*.html'],
@@ -11,10 +12,11 @@ module.exports = {
       extends: ['plugin:@html-eslint/recommended']
     }
   ],
-  extends: ['airbnb-base', 'plugin:prettier/recommended'],
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module'
   },
-  rules: {}
+  rules: {
+    '@html-eslint/indent': ['error', 2]
+  }
 };
