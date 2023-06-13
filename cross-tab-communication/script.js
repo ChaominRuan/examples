@@ -8,11 +8,11 @@ const messageWrapper = document.querySelector('#message-wrapper');
 document.title = `Page: ${id}`;
 pageIdEle.innerHTML = document.title;
 
-const initButtonFun = (fun) => {
+const initButtonFun = fun => {
   button.addEventListener('click', fun);
 };
 
-const creatMessageElement = (value) => {
+const creatMessageElement = value => {
   const p = document.createElement('p');
   p.innerHTML = `${value}`;
   messageWrapper.appendChild(p);

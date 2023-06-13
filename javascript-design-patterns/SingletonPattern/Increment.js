@@ -1,6 +1,6 @@
-import Counter from "./Counter";
+import Counter from './Counter';
 
 document.querySelector('#Increment').onclick = () => {
-    Counter.increment();
-    document.querySelector('#count').innerHTML = Counter.getCount().toString();
-}
+  Counter.increment();
+  document.querySelector('#count').innerHTML = Counter.getCount().toString();
+};
