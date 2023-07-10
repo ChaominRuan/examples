@@ -1,4 +1,4 @@
-import Counter from './Counter';
+import Counter from './Counter.js';
 
 document.querySelector('#Increment').onclick = () => {
   Counter.increment();

@@ -1,4 +1,4 @@
-import SingletonPattern from './SingletonPattern';
+import SingletonPattern from './SingletonPattern.js';
 
 class Person {
   constructor(name, age) {

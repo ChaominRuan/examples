@@ -1,8 +1,8 @@
-import './Increment';
-import './Decrement';
-import Counter from './Counter';
+import './Increment.js';
+import './Decrement.js';
+import Counter from './Counter.js';
 
-import Person from './Person';
+import Person from './Person.js';
 
 document.querySelector('#count').innerHTML = Counter.getCount().toString();
 
